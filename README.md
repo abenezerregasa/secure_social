@@ -41,8 +41,6 @@ The application uses **three-factor authentication**:
 5. Biometric authentication is triggered  
 6. Access is granted  
 
-This layered approach significantly increases resistance to unauthorized access. :contentReference[oaicite:0]{index=0}
-
 ---
 
 ## Security Implementation
@@ -55,7 +53,7 @@ This layered approach significantly increases resistance to unauthorized access.
 **Protection against:**
 - Brute-force attacks  
 - Rainbow table attacks  
-- Database leaks :contentReference[oaicite:1]{index=1}
+- Database leaks
 
 ---
 
@@ -68,7 +66,7 @@ This layered approach significantly increases resistance to unauthorized access.
 **Prevents:**
 - Replay attacks  
 - OTP reuse  
-- Interception misuse :contentReference[oaicite:2]{index=2}
+- Interception misuse 
 
 ---
 
@@ -77,7 +75,7 @@ This layered approach significantly increases resistance to unauthorized access.
 - No biometric data stored in the app
 - Returns only success/failure
 
-Adds an extra layer tied to the physical user. :contentReference[oaicite:3]{index=3}
+Adds an extra layer tied to the physical user. 
 
 ---
 
@@ -98,7 +96,7 @@ Adds an extra layer tied to the physical user. :contentReference[oaicite:3]{inde
 - **Defense in Depth** → Multiple authentication layers  
 - **Least Privilege** → Users only access allowed actions  
 - **Secure Storage** → Sensitive data is hashed  
-- **Separation of Concerns** → Clear frontend/backend roles :contentReference[oaicite:4]{index=4}
+- **Separation of Concerns** → Clear frontend/backend roles 
 
 ---
 
@@ -106,7 +104,7 @@ Adds an extra layer tied to the physical user. :contentReference[oaicite:3]{inde
 - Refresh tokens for better session management  
 - Rate limiting to prevent brute-force attacks  
 - Device binding for stronger identity verification  
-- Logging and monitoring for threat detection :contentReference[oaicite:5]{index=5}
+- Logging and monitoring for threat detection 
 
 ---
 
@@ -121,3 +119,5 @@ Adds an extra layer tied to the physical user. :contentReference[oaicite:3]{inde
 
 ## Summary
 This project demonstrates a real-world implementation of secure authentication and authorization by combining multiple layers of protection. It highlights how modern security practices can be applied effectively in a full-stack application.
+
+© Abenezer Regasa
