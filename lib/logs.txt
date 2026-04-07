@@ -1,0 +1,164 @@
+abenezerregasa@pop-os:~/tri_auth$ adb logcat --pid=$(adb shell pidof -s com.example.tfa_social)
+--------- beginning of main
+02-23 00:42:14.794  5085  5085 I mple.tfa_social: Late-enabling -Xcheck:jni
+02-23 00:42:14.835  5085  5085 I mple.tfa_social: Using CollectorTypeCC GC.
+02-23 00:42:14.862  5085  5085 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+02-23 00:42:14.873  5085  5085 D ActivityThread: setConscryptValidator
+02-23 00:42:14.874  5085  5085 D ActivityThread: setConscryptValidator - put
+02-23 00:42:14.923  5085  5085 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 10364; state: ENABLED
+02-23 00:42:14.927  5085  5085 D CompatibilityChangeReporter: Compat change id reported: 242716250; UID 10364; state: ENABLED
+02-23 00:42:14.975  5085  5085 W ziparchive: Unable to open '/data/app/~~z2syFpDuoSbtKgNbMDnbkw==/com.example.tfa_social-HF0tcB7nVOsDpiNPI2g8XA==/base.dm': No such file or directory
+02-23 00:42:14.976  5085  5085 W ziparchive: Unable to open '/data/app/~~z2syFpDuoSbtKgNbMDnbkw==/com.example.tfa_social-HF0tcB7nVOsDpiNPI2g8XA==/base.dm': No such file or directory
+02-23 00:42:15.176  5085  5085 D nativeloader: Configuring clns-4 for other apk /data/app/~~z2syFpDuoSbtKgNbMDnbkw==/com.example.tfa_social-HF0tcB7nVOsDpiNPI2g8XA==/base.apk. target_sdk_version=36, uses_libraries=, library_path=/data/app/~~z2syFpDuoSbtKgNbMDnbkw==/com.example.tfa_social-HF0tcB7nVOsDpiNPI2g8XA==/lib/arm64:/data/app/~~z2syFpDuoSbtKgNbMDnbkw==/com.example.tfa_social-HF0tcB7nVOsDpiNPI2g8XA==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.example.tfa_social
+02-23 00:42:15.186  5085  5085 D nativeloader: Load libframework-connectivity-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity.jar: ok
+02-23 00:42:15.193  5085  5085 V GraphicsEnvironment: Currently set values for:
+02-23 00:42:15.193  5085  5085 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+02-23 00:42:15.193  5085  5085 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+02-23 00:42:15.194  5085  5085 V GraphicsEnvironment: ANGLE GameManagerService for com.example.tfa_social: false
+02-23 00:42:15.194  5085  5085 V GraphicsEnvironment: com.example.tfa_social is not listed in per-application setting
+02-23 00:42:15.194  5085  5085 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+02-23 00:42:15.300  5085  5085 D OpenGLRenderer: HWUI - treat SMPTE_170M as sRGB
+02-23 00:42:15.303  5085  5122 D libMEOW : meow new tls: 0xb400006fb2a2ac00
+02-23 00:42:15.306  5085  5122 D libMEOW : meow reload base cfg path: na
+02-23 00:42:15.306  5085  5122 D libMEOW : meow reload overlay cfg path: na
+02-23 00:42:15.321  5085  5122 E QT      : [QT]file does not exist
+02-23 00:42:15.322  5085  5122 D libMEOW : applied 2 plugins for [com.example.tfa_social]:
+02-23 00:42:15.322  5085  5122 D libMEOW :   plugin 1: [libMEOW_gift.so]:
+02-23 00:42:15.322  5085  5122 D libMEOW :   plugin 2: [libMEOW_semaphore]:
+02-23 00:42:15.339  5085  5122 E OpenGLRenderer: Device claims wide gamut support, cannot find matching config, error = EGL_SUCCESS
+02-23 00:42:15.339  5085  5122 W OpenGLRenderer: Failed to initialize 101010-2 format, error = EGL_SUCCESS
+02-23 00:42:15.352  5085  5137 I ResourceExtractor: Found extracted resources res_timestamp-1-1771803610827
+02-23 00:42:15.352  5085  5137 I ResourceExtractor: Resource version mismatch res_timestamp-1-1771803732786
+02-23 00:42:15.354  5085  5136 D FlutterJNI: Beginning load of flutter...
+02-23 00:42:15.424  5085  5136 D nativeloader: Load /data/app/~~z2syFpDuoSbtKgNbMDnbkw==/com.example.tfa_social-HF0tcB7nVOsDpiNPI2g8XA==/base.apk!/lib/arm64-v8a/libflutter.so using ns clns-4 from class loader (caller=/data/app/~~z2syFpDuoSbtKgNbMDnbkw==/com.example.tfa_social-HF0tcB7nVOsDpiNPI2g8XA==/base.apk): ok
+02-23 00:42:15.428  5085  5136 D FlutterJNI: flutter (null) was loaded normally!
+02-23 00:42:16.006  5085  5137 I ResourceExtractor: Extracted baseline resource assets/flutter_assets/kernel_blob.bin
+02-23 00:42:16.007  5085  5137 I ResourceExtractor: Extracted baseline resource assets/flutter_assets/vm_snapshot_data
+02-23 00:42:16.112  5085  5137 I ResourceExtractor: Extracted baseline resource assets/flutter_assets/isolate_snapshot_data
+02-23 00:42:16.191  5085  5145 D vulkan  : searching for layers in '/data/app/~~z2syFpDuoSbtKgNbMDnbkw==/com.example.tfa_social-HF0tcB7nVOsDpiNPI2g8XA==/lib/arm64'
+02-23 00:42:16.191  5085  5145 D vulkan  : searching for layers in '/data/app/~~z2syFpDuoSbtKgNbMDnbkw==/com.example.tfa_social-HF0tcB7nVOsDpiNPI2g8XA==/base.apk!/lib/arm64-v8a'
+02-23 00:42:16.200  5085  5145 D vulkan  : added global layer 'VK_LAYER_KHRONOS_validation' from library '/data/app/~~z2syFpDuoSbtKgNbMDnbkw==/com.example.tfa_social-HF0tcB7nVOsDpiNPI2g8XA==/base.apk!/lib/arm64-v8a/libVkLayer_khronos_validation.so'
+02-23 00:42:16.201  5085  5145 W libc    : Access denied finding property "vendor.debug.forcibly_enable_mtk_ray_tracing"
+02-23 00:42:16.251  5085  5145 I flutter : [IMPORTANT:flutter/shell/platform/android/android_context_vk_impeller.cc(62)] Using the Impeller rendering backend (Vulkan).
+02-23 00:42:16.435  5085  5176 I flutter : The Dart VM service is listening on http://127.0.0.1:43263/vsaggzx26qE=/
+02-23 00:42:16.598  5085  5085 E flutter : [ERROR:flutter/runtime/dart_isolate.cc(146)] Could not prepare isolate.
+02-23 00:42:16.607  5085  5085 E flutter : [ERROR:flutter/runtime/runtime_controller.cc(567)] Could not create root isolate.
+02-23 00:42:16.607  5085  5085 E flutter : [ERROR:flutter/shell/common/shell.cc(799)] Could not launch engine with configuration.
+02-23 00:42:16.709  5085  5085 W mple.tfa_social: Accessing hidden method Landroid/view/accessibility/AccessibilityNodeInfo;->getSourceNodeId()J (unsupported,test-api, reflection, allowed)
+02-23 00:42:16.709  5085  5085 W mple.tfa_social: Accessing hidden method Landroid/view/accessibility/AccessibilityRecord;->getSourceNodeId()J (unsupported, reflection, allowed)
+02-23 00:42:16.709  5085  5085 W mple.tfa_social: Accessing hidden field Landroid/view/accessibility/AccessibilityNodeInfo;->mChildNodeIds:Landroid/util/LongArray; (unsupported, reflection, allowed)
+02-23 00:42:16.710  5085  5085 W mple.tfa_social: Accessing hidden method Landroid/util/LongArray;->get(I)J (unsupported, reflection, allowed)
+02-23 00:42:16.732  5085  5085 D FlutterRenderer: Width is zero. 0,0
+02-23 00:42:16.766  5085  5085 I DecorView: setWindowBackground: isPopOver=false color=ff000000 d=android.graphics.drawable.ColorDrawable@179eaed
+02-23 00:42:16.790  5085  5085 D CompatibilityChangeReporter: Compat change id reported: 237531167; UID 10364; state: DISABLED
+02-23 00:42:16.796  5085  5085 W OpenGLRenderer: Unknown dataspace 0
+02-23 00:42:16.798  5085  5122 D NativeCustomFrequencyManager: [NativeCFMS] BpCustomFrequencyManager::BpCustomFrequencyManager()
+02-23 00:42:16.816  5085  5085 I InsetsController: onStateChanged: host=com.example.tfa_social/com.example.tfa_social.MainActivity, from=android.view.ViewRootImpl.setView:1753, state=InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2408), mDisplayCutout=DisplayCutout{insets=Rect(0, 64 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(468, 0 - 612, 64), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2408 physicalDisplayWidth=1080 physicalDisplayHeight=2408 density={2.8125} cutoutSpec={M 0,0 H -25.6‬ V 22.75555555555556 H 25.6‬ V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=0, center=Point(0, 0)}, RoundedCorner{position=TopRight, radius=0, center=Point(0, 0)}, RoundedCorner{position=BottomRight, radius=0, center=Point(0, 0)}, RoundedCorner{position=BottomLeft, radius=0, center=Point(0, 0)}]}  mRoundedCornerFrame=Rect(0, 0 - 1080, 2408), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(964, 0 - 1080, 64) rotation=0}, mDisplayShape=DisplayShape{ spec=-311912193 displayWidth=1080 displayHeight=2408 physicalPixelDisplaySizeRatio=1.0 rotation=0 offsetX=0 offsetY=0 scale=1.0}, mSources= { InsetsSource: {837d0000 mType=statusBars mFrame=[0,0][1080,64] mVisible=true mFlags=[]}, InsetsSource: {837d0005 mType=mandatorySystemGestures mFrame=[0,0][1080,96] mVisible=true mFlags=[]}, InsetsSource: {837d0006 mType=tappableElement mFrame=[0,0][1080,64] mVisible=true mFlags=[]}, InsetsSource: {f61b0001 mType=navigationBars mFrame=[0,2282][1080,2408] mVisible=true mFlags=[]}, InsetsSource: {f61b0004 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags=[]}, InsetsSource: {f61b0005 mType=mandatorySystemGestures mFrame=[0,2282][1080,2408] mVisible=true mFlags=[]}, InsetsSource: {f61b0006 mType=tappableElement mFrame=[0,2282][1080,2408] mVisible=true mFlags=[]}, InsetsSource: {f61b0024 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags=[]}, InsetsSource: {27 mType=displayCutout mFrame=[0,0][1080,64] mVisible=true mFlags=[]} }
+02-23 00:42:16.819  5085  5085 I ViewRootImpl@a2a03b3[MainActivity]: synced displayState. AttachInfo displayState=2
+02-23 00:42:16.821  5085  5085 I ViewRootImpl@a2a03b3[MainActivity]: setView = com.android.internal.policy.DecorView@b37280f TM=true
+02-23 00:42:16.822  5085  5085 I IDS_TAG : Clearing training data of android.app.Application@f4ad09c
+02-23 00:42:16.823  5085  5085 I IDS_TAG : Starting IDS observe window
+02-23 00:42:16.824  5085  5085 I IDS_TAG : Getting Shared Preference for android.app.Application@f4ad09c uid = 10364
+02-23 00:42:16.828  5085  5085 I IDS_TAG : App android.app.Application@f4ad09c has not finished training
+02-23 00:42:16.834  5085  5085 I IDS_TAG : Closing IDS observe window
+02-23 00:42:16.834  5085  5085 I IDS_TAG : Getting Shared Preference for android.app.Application@f4ad09c uid = 10364
+02-23 00:42:16.836  5085  5085 I IDS_TAG : IDS count updated to 1 for android.app.Application@f4ad09c
+02-23 00:42:16.836  5085  5085 I Choreographer: Skipped 92 frames!  The application may be doing too much work on its main thread.
+02-23 00:42:16.964  5085  5085 I SurfaceView@668a3c3: onWindowVisibilityChanged(0) true io.flutter.embedding.android.FlutterSurfaceView{668a3c3 V.E...... ......I. 0,0-0,0} of ViewRootImpl@a2a03b3[MainActivity]
+02-23 00:42:16.964  5085  5085 D SurfaceView@668a3c3: 107520963 updateSurface: has no frame
+02-23 00:42:16.966  5085  5085 D FlutterRenderer: Width is zero. 0,0
+02-23 00:42:16.994  5085  5085 D BufferQueueConsumer: [](id:13dd00000000,api:0,p:-1,c:5085) connect: controlledByApp=false
+02-23 00:42:16.997  5085  5085 I BLASTBufferQueue_Java: new BLASTBufferQueue, mName= ViewRootImpl@a2a03b3[MainActivity] mNativeObject= 0xb40000701bd43980 sc.mNativeObject= 0xb400006f8aa1f9c0 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3028 android.view.ViewRootImpl.relayoutWindow:10131 android.view.ViewRootImpl.performTraversals:4110 android.view.ViewRootImpl.doTraversal:3288 android.view.ViewRootImpl$TraversalRunnable.run:11344 android.view.Choreographer$CallbackRecord.run:1689 android.view.Choreographer$CallbackRecord.run:1698 android.view.Choreographer.doCallbacks:1153 android.view.Choreographer.doFrame:1079 android.view.Choreographer$FrameDisplayEventReceiver.run:1646 
+02-23 00:42:16.997  5085  5085 I BLASTBufferQueue_Java: update, w= 1080 h= 2408 mName = ViewRootImpl@a2a03b3[MainActivity] mNativeObject= 0xb40000701bd43980 sc.mNativeObject= 0xb400006f8aa1f9c0 format= -3 caller= android.graphics.BLASTBufferQueue.<init>:89 android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3028 android.view.ViewRootImpl.relayoutWindow:10131 android.view.ViewRootImpl.performTraversals:4110 android.view.ViewRootImpl.doTraversal:3288 android.view.ViewRootImpl$TraversalRunnable.run:11344 
+02-23 00:42:16.999  5085  5085 E FBI     : Can't load library: dlopen failed: library "libmagtsync.so" not found
+02-23 00:42:17.001  5085  5085 I ViewRootImpl@a2a03b3[MainActivity]: Relayout returned: old=(0,0,1080,2408) new=(0,0,1080,2408) relayoutAsync=false req=(1080,2408)0 dur=12 res=0x403 s={true 0xb400006f8a8d6000} ch=true seqId=0
+02-23 00:42:17.003  5085  5085 D ViewRootImpl@a2a03b3[MainActivity]: mThreadedRenderer.initialize() mSurface={isValid=true 0xb400006f8a8d6000} hwInitialized=true
+02-23 00:42:17.005  5085  5085 D FlutterJNI: Sending viewport metrics to the engine.
+02-23 00:42:17.005  5085  5085 D SurfaceView@668a3c3: 107520963 updateSurface: has no frame
+02-23 00:42:17.006  5085  5085 I SurfaceView@668a3c3: windowStopped(false) true io.flutter.embedding.android.FlutterSurfaceView{668a3c3 V.E...... ......ID 0,0-1080,2282} of ViewRootImpl@a2a03b3[MainActivity]
+02-23 00:42:17.006  5085  5085 D SurfaceView@668a3c3: 107520963 updateSurface: has no frame
+02-23 00:42:17.007  5085  5085 D ViewRootImpl@a2a03b3[MainActivity]: reportNextDraw android.view.ViewRootImpl.performTraversals:4718 android.view.ViewRootImpl.doTraversal:3288 android.view.ViewRootImpl$TraversalRunnable.run:11344 android.view.Choreographer$CallbackRecord.run:1689 android.view.Choreographer$CallbackRecord.run:1698 
+02-23 00:42:17.007  5085  5085 I SurfaceView: 107520963 Changes: creating=true format=true size=true visible=true alpha=false hint=false visible=true left=true top=true z=false attached=true lifecycleStrategy=false
+02-23 00:42:17.012  5085  5085 D BufferQueueConsumer: [](id:13dd00000001,api:0,p:-1,c:5085) connect: controlledByApp=false
+02-23 00:42:17.019  5085  5085 I BLASTBufferQueue_Java: update, w= 1080 h= 2282 mName = null mNativeObject= 0xb40000701bdc9b00 sc.mNativeObject= 0xb400006f8aa1fd80 format= 4 caller= android.view.SurfaceView.createBlastSurfaceControls:1517 android.view.SurfaceView.updateSurface:1193 android.view.SurfaceView.lambda$new$0:258 android.view.SurfaceView.$r8$lambda$cm3nmzErr-srXoT_KjIYQgdhFN0:0 android.view.SurfaceView$$ExternalSyntheticLambda2.onPreDraw:2 android.view.ViewTreeObserver.dispatchOnPreDraw:1204 
+02-23 00:42:17.020  5085  5085 I SurfaceView@668a3c3: 107520963 Cur surface: Surface(name=null)/@0x1c9d9ef
+02-23 00:42:17.020  5085  5085 I SurfaceView@668a3c3: pST: sr = Rect(0, 0 - 1080, 2282) sw = 1080 sh = 2282
+02-23 00:42:17.021  5085  5085 D SurfaceView@668a3c3: 107520963 performSurfaceTransaction RenderWorker position = [0, 0, 1080, 2282] surfaceSize = 1080x2282
+02-23 00:42:17.022  5085  5085 I SurfaceView@668a3c3: updateSurface: mVisible = true mSurface.isValid() = true
+02-23 00:42:17.022  5085  5085 I SurfaceView@668a3c3: updateSurface: mSurfaceCreated = false surfaceChanged = true visibleChanged = true
+02-23 00:42:17.022  5085  5085 I SurfaceView: 107520963 visibleChanged -- surfaceCreated
+02-23 00:42:17.022  5085  5085 I SurfaceView@668a3c3: surfaceCreated 1 #8 io.flutter.embedding.android.FlutterSurfaceView{668a3c3 V.E...... ......ID 0,0-1080,2282}
+02-23 00:42:17.104  5085  5145 E gralloc4: ERROR: Format allocation info not found for format: 38
+02-23 00:42:17.105  5085  5145 E gralloc4: ERROR: Format allocation info not found for format: 0
+02-23 00:42:17.105  5085  5145 E gralloc4: Invalid base format! req_base_format = 0x0, req_format = 0x38, type = 0x0
+02-23 00:42:17.105  5085  5145 E gralloc4: ERROR: Unrecognized and/or unsupported format 0x38 and usage 0xb00
+02-23 00:42:17.105  5085  5145 E gralloc4: Allocation for the given description will not succeed. error: -22
+02-23 00:42:17.105  5085  5145 E Gralloc4: isSupported(1, 1, 56, 1, ...) failed with 5
+02-23 00:42:17.110  5085  5145 E GraphicBufferAllocator: Failed to allocate (4 x 4) layerCount 1 format 56 usage b00: 5
+02-23 00:42:17.110  5085  5145 E AHardwareBuffer: GraphicBuffer(w=4, h=4, lc=1) failed (Unknown error -5), handle=0x0
+02-23 00:42:17.110  5085  5145 E gralloc4: ERROR: Format allocation info not found for format: 3b
+02-23 00:42:17.110  5085  5145 E gralloc4: ERROR: Format allocation info not found for format: 0
+02-23 00:42:17.110  5085  5145 E gralloc4: Invalid base format! req_base_format = 0x0, req_format = 0x3b, type = 0x0
+02-23 00:42:17.110  5085  5145 E gralloc4: ERROR: Unrecognized and/or unsupported format 0x3b and usage 0xb00
+02-23 00:42:17.110  5085  5145 E gralloc4: Allocation for the given description will not succeed. error: -22
+02-23 00:42:17.110  5085  5145 E Gralloc4: isSupported(1, 1, 59, 1, ...) failed with 5
+02-23 00:42:17.111  5085  5145 E GraphicBufferAllocator: Failed to allocate (4 x 4) layerCount 1 format 59 usage b00: 5
+02-23 00:42:17.111  5085  5145 E AHardwareBuffer: GraphicBuffer(w=4, h=4, lc=1) failed (Unknown error -5), handle=0x0
+02-23 00:42:17.111  5085  5145 E gralloc4: ERROR: Format allocation info not found for format: 38
+02-23 00:42:17.111  5085  5145 E gralloc4: ERROR: Format allocation info not found for format: 0
+02-23 00:42:17.111  5085  5145 E gralloc4: Invalid base format! req_base_format = 0x0, req_format = 0x38, type = 0x0
+02-23 00:42:17.111  5085  5145 E gralloc4: ERROR: Unrecognized and/or unsupported format 0x38 and usage 0xb00
+02-23 00:42:17.111  5085  5145 E gralloc4: Allocation for the given description will not succeed. error: -22
+02-23 00:42:17.111  5085  5145 E Gralloc4: isSupported(1, 1, 56, 1, ...) failed with 5
+02-23 00:42:17.111  5085  5145 E GraphicBufferAllocator: Failed to allocate (4 x 4) layerCount 1 format 56 usage b00: 5
+02-23 00:42:17.111  5085  5145 E AHardwareBuffer: GraphicBuffer(w=4, h=4, lc=1) failed (Unknown error -5), handle=0x0
+02-23 00:42:17.111  5085  5145 E gralloc4: ERROR: Format allocation info not found for format: 3b
+02-23 00:42:17.111  5085  5145 E gralloc4: ERROR: Format allocation info not found for format: 0
+02-23 00:42:17.111  5085  5145 E gralloc4: Invalid base format! req_base_format = 0x0, req_format = 0x3b, type = 0x0
+02-23 00:42:17.111  5085  5145 E gralloc4: ERROR: Unrecognized and/or unsupported format 0x3b and usage 0xb00
+02-23 00:42:17.111  5085  5145 E gralloc4: Allocation for the given description will not succeed. error: -22
+02-23 00:42:17.111  5085  5145 E Gralloc4: isSupported(1, 1, 59, 1, ...) failed with 5
+02-23 00:42:17.111  5085  5145 E GraphicBufferAllocator: Failed to allocate (4 x 4) layerCount 1 format 59 usage b00: 5
+02-23 00:42:17.111  5085  5145 E AHardwareBuffer: GraphicBuffer(w=4, h=4, lc=1) failed (Unknown error -5), handle=0x0
+02-23 00:42:17.115  5085  5145 D hw-ProcessState: Binder ioctl to enable oneway spam detection failed: Invalid argument
+02-23 00:42:17.337  5085  5091 I mple.tfa_social: Compiler allocated 6937KB to compile void android.view.ViewRootImpl.performTraversals()
+02-23 00:42:17.363  5085  5085 I SurfaceView: 107520963 surfaceChanged -- format=4 w=1080 h=2282
+02-23 00:42:17.364  5085  5085 I SurfaceView@668a3c3: surfaceChanged (1080,2282) 1 #8 io.flutter.embedding.android.FlutterSurfaceView{668a3c3 V.E...... ......ID 0,0-1080,2282}
+02-23 00:42:17.365  5085  5085 I SurfaceView: 107520963 surfaceRedrawNeeded
+02-23 00:42:17.366  5085  5085 V SurfaceView@668a3c3: Layout: x=0 y=0 w=1080 h=2282, frame=Rect(0, 0 - 1080, 2282)
+02-23 00:42:17.367  5085  5122 D OpenGLRenderer: HWUI - treat SMPTE_170M as sRGB
+02-23 00:42:17.419  5085  5085 I InsetsSourceConsumer: applyRequestedVisibilityToControl: visible=true, type=navigationBars, host=com.example.tfa_social/com.example.tfa_social.MainActivity
+02-23 00:42:17.421  5085  5085 I InsetsSourceConsumer: applyRequestedVisibilityToControl: visible=true, type=statusBars, host=com.example.tfa_social/com.example.tfa_social.MainActivity
+02-23 00:42:17.426  5085  5085 D FlutterJNI: Sending viewport metrics to the engine.
+02-23 00:42:22.577  5085  5184 D ProfileInstaller: Installing profile for com.example.tfa_social
+02-23 01:12:14.491  5085  5122 D OpenGLRenderer: CacheManager::trimMemory(20)
+02-23 01:12:14.491  5085  5085 I ViewRootImpl@a2a03b3[MainActivity]: handleAppVisibility mAppVisible = true visible = false
+02-23 01:12:14.506  5085  5085 I SurfaceView@668a3c3: onWindowVisibilityChanged(8) false io.flutter.embedding.android.FlutterSurfaceView{668a3c3 V.E...... ......ID 0,0-1080,2282} of ViewRootImpl@a2a03b3[MainActivity]
+02-23 01:12:14.506  5085  5085 I SurfaceView: 107520963 Changes: creating=false format=false size=false visible=true alpha=false hint=false visible=true left=false top=false z=false attached=true lifecycleStrategy=false
+02-23 01:12:14.510  5085  5085 I SurfaceView@668a3c3: 107520963 Cur surface: Surface(name=null)/@0x1c9d9ef
+02-23 01:12:14.512  5085  5085 I SurfaceView: 107520963 surfaceDestroyed
+02-23 01:12:14.513  5085  5085 I SurfaceView@668a3c3: surfaceDestroyed callback.size 1 #2 io.flutter.embedding.android.FlutterSurfaceView{668a3c3 V.E...... ......ID 0,0-1080,2282}
+02-23 01:12:14.526  5085  5085 I SurfaceView@668a3c3: updateSurface: mVisible = false mSurface.isValid() = true
+02-23 01:12:14.527  5085  5085 D BLASTBufferQueue: [SurfaceView[com.example.tfa_social/com.example.tfa_social.MainActivity]@0#1](f:0,a:0) destructor()
+02-23 01:12:14.527  5085  5085 D BufferQueueConsumer: [SurfaceView[com.example.tfa_social/com.example.tfa_social.MainActivity]@0#1(BLAST Consumer)1](id:13dd00000001,api:0,p:-1,c:5085) disconnect
+02-23 01:12:14.532  5085  5085 I SurfaceView@668a3c3: releaseSurfaces: viewRoot = ViewRootImpl@a2a03b3[MainActivity]
+02-23 01:12:14.533  5085  5085 V SurfaceView@668a3c3: Layout: x=0 y=0 w=1080 h=2282, frame=Rect(0, 0 - 1080, 2282)
+02-23 01:12:14.534  5085  5085 I ViewRootImpl@a2a03b3[MainActivity]: destroyHardwareResources: Callers=android.view.ViewRootImpl.performTraversals:3932 android.view.ViewRootImpl.doTraversal:3288 android.view.ViewRootImpl$TraversalRunnable.run:11344 android.view.Choreographer$CallbackRecord.run:1689 android.view.Choreographer$CallbackRecord.run:1698 android.view.Choreographer.doCallbacks:1153 android.view.Choreographer.doFrame:1079 android.view.Choreographer$FrameDisplayEventReceiver.run:1646 android.os.Handler.handleCallback:958 android.os.Handler.dispatchMessage:99 
+02-23 01:12:14.538  5085  5122 D OpenGLRenderer: CacheManager::trimMemory(20)
+02-23 01:12:14.548  5085  5085 D BLASTBufferQueue: [ViewRootImpl@a2a03b3[MainActivity]#0](f:0,a:0) destructor()
+02-23 01:12:14.549  5085  5085 D BufferQueueConsumer: [ViewRootImpl@a2a03b3[MainActivity]#0(BLAST Consumer)0](id:13dd00000000,api:0,p:-1,c:5085) disconnect
+02-23 01:12:14.550  5085  5085 I ViewRootImpl@a2a03b3[MainActivity]: Relayout returned: old=(0,0,1080,2408) new=(0,0,1080,2408) relayoutAsync=false req=(1080,2408)8 dur=9 res=0x402 s={false 0x0} ch=true seqId=0
+02-23 01:12:14.550  5085  5085 I SurfaceView@668a3c3: windowStopped(true) false io.flutter.embedding.android.FlutterSurfaceView{668a3c3 V.E...... ......ID 0,0-1080,2282} of ViewRootImpl@a2a03b3[MainActivity]
+02-23 01:12:14.551  5085  5085 D SurfaceView@668a3c3: updateSurface: surface is not valid
+02-23 01:12:14.551  5085  5085 I SurfaceView@668a3c3: releaseSurfaces: viewRoot = ViewRootImpl@a2a03b3[MainActivity]
+02-23 01:12:14.552  5085  5085 D SurfaceView@668a3c3: updateSurface: surface is not valid
+02-23 01:12:14.552  5085  5085 I SurfaceView@668a3c3: releaseSurfaces: viewRoot = ViewRootImpl@a2a03b3[MainActivity]
+02-23 01:12:14.555  5085  5085 I ViewRootImpl@a2a03b3[MainActivity]: stopped(true) old = false
+02-23 01:12:14.556  5085  5085 D ViewRootImpl@a2a03b3[MainActivity]: WindowStopped on com.example.tfa_social/com.example.tfa_social.MainActivity set to true
+02-23 01:12:14.556  5085  5122 D OpenGLRenderer: CacheManager::trimMemory(20)
+02-23 01:12:14.560  5085  5085 D SurfaceView@668a3c3: updateSurface: surface is not valid
+02-23 01:12:14.560  5085  5085 I SurfaceView@668a3c3: releaseSurfaces: viewRoot = ViewRootImpl@a2a03b3[MainActivity]
+02-23 01:12:14.565  5085  5085 I ViewRootImpl@a2a03b3[MainActivity]: onDisplayChanged oldDisplayState=2 newDisplayState=1
+02-23 01:12:14.572  5085  5085 D SurfaceView@668a3c3: updateSurface: surface is not valid
+02-23 01:12:14.573  5085  5085 I SurfaceView@668a3c3: releaseSurfaces: viewRoot = ViewRootImpl@a2a03b3[MainActivity]
+02-23 01:12:14.739  5085  5085 I ViewRootImpl@a2a03b3[MainActivity]: onDisplayChanged oldDisplayState=1 newDisplayState=1
